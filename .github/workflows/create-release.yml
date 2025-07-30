@@ -12,7 +12,7 @@ jobs:
       shell: cmd
       run: |
         cd \
-        git clone https://github.com/yxmline/duckstation.git --depth=1
+        git clone https://github.com/stenzek/duckstation.git --depth=1
 
     - name: Build X64 Dependencies
       shell: cmd
